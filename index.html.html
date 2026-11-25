@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Montevideo Wrapping - Detailing Studio | Vista previa</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#0b0b0d;--s1:#131316;--s2:#1b1b20;--ln:#2d2d35;--tx:#fff;--mut:#a6a6b2;--red:#e5252a;--wa:#005c4b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){color-scheme:dark}}
+:root[data-theme=dark]{color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden;font-variant-numeric:tabular-nums}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+h1,h2,h3,.lg{font-family:Sora,"Helvetica Neue",Arial,sans-serif;margin:0;line-height:1.08;letter-spacing:-.02em}
+.w{max-width:1140px;margin:0 auto;padding:0 20px}
+button,a{font:inherit;color:inherit}button{cursor:pointer}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(11,11,13,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--ln)}
+header .w{display:flex;justify-content:space-between;align-items:center;height:62px;gap:12px}
+.lg{font-weight:800;font-size:1.25rem;display:flex;gap:10px;align-items:center}.lg i{width:26px;height:26px;border-radius:6px;background:conic-gradient(#fff 25%,#111 0 50%,#fff 0 75%,#111 0) 0 0/13px 13px;border:1px solid var(--ln)}
+nav{display:flex;gap:22px;color:var(--mut);font-size:.93rem}nav a{text-decoration:none}nav a:hover{color:var(--tx)}
+.btn{display:inline-block;text-decoration:none;border:0;border-radius:10px;background:var(--red);color:#fff;font-weight:600;padding:13px 22px;transition:transform .15s,background .15s}
+.btn:hover{background:#ff3a3f;transform:translateY(-1px)}
+.alt{background:transparent;border:1px solid var(--ln)}.alt:hover{background:var(--s2);border-color:#fff}
+.hero{padding:70px 0 60px;border-bottom:1px solid var(--ln)}
+.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+h1{font-size:clamp(2.5rem,6.2vw,4.7rem);font-weight:800}h1 em{font-style:normal;color:var(--red)}
+.sub{color:var(--mut);font-size:1.1rem;max-width:48ch;margin:22px 0 28px}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.frame{border:1px solid var(--ln);border-radius:20px;background:var(--s1);overflow:hidden}
+.cars{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:14px}
+.car{aspect-ratio:3/4;border-radius:12px;position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:10px;font-size:.82rem;font-weight:600}
+.car::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.28) 48%,transparent 60%)}
+.car span{position:relative;background:rgba(0,0,0,.55);padding:3px 8px;border-radius:6px}
+.floor{height:70px;background:conic-gradient(#e9e9ee 25%,#151518 0 50%,#e9e9ee 0 75%,#151518 0) 0 0/46px 46px;opacity:.9;-webkit-mask:linear-gradient(#000,transparent);mask:linear-gradient(#000,transparent)}
+.cap{padding:0 18px 16px;color:var(--mut);font-size:.88rem;margin-top:-24px;position:relative}
+.sec{padding:76px 0}h2{font-size:clamp(2rem,4.8vw,3.2rem);font-weight:800;margin-bottom:12px}
+.lead{color:var(--mut);max-width:58ch;margin:0 0 32px}
+.sg{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.sc{background:var(--s1);border:1px solid var(--ln);border-radius:14px;padding:18px 14px;text-align:left;transition:.2s;min-height:96px;font-family:Sora,sans-serif;font-weight:700;font-size:1.05rem;line-height:1.2}
+.sc:hover{border-color:#777}.sc.on{border-color:var(--red);background:var(--s2);box-shadow:inset 0 3px 0 var(--red)}
+.dt{margin-top:14px;display:grid;grid-template-columns:1.3fr 1fr;gap:24px;background:var(--s1);border:1px solid var(--ln);border-radius:18px;padding:26px}
+.dt h3{font-size:1.7rem;margin-bottom:6px}.dt p{margin:8px 0 18px;color:var(--mut)}
+dl{margin:0;display:grid;gap:0}dl div{display:flex;justify-content:space-between;gap:14px;border-bottom:1px solid var(--ln);padding:10px 0;font-size:.93rem}dt{color:var(--mut)}dd{margin:0;font-weight:600;text-align:right}
+.band{background:var(--s1);border-block:1px solid var(--ln)}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+.card{background:var(--bg);border:1px solid var(--ln);border-radius:18px;padding:22px}
+label,.lb{display:block;font-size:.85rem;color:var(--mut);margin:14px 0 6px}
+input{width:100%;background:var(--s2);border:1px solid var(--ln);color:var(--tx);border-radius:10px;padding:12px;font:inherit}
+.i3{display:grid;grid-template-columns:1fr 1fr 90px;gap:8px}.i3 input{min-width:0}
+.ch{display:flex;flex-wrap:wrap;gap:8px}.ch button{background:transparent;border:1px solid var(--ln);border-radius:999px;padding:8px 14px;font-size:.9rem}.ch button:hover{border-color:#fff}.ch button.on{background:#fff;color:#000;border-color:#fff}
+.pv{margin:18px 0;background:var(--s2);border-left:3px solid var(--red);border-radius:8px;padding:12px 14px;font-size:.92rem;color:#dcdce4}
+.ph{border:1px solid var(--ln);border-radius:26px;overflow:hidden;background:#0b141a}
+.top{background:#202c33;padding:12px 16px;display:flex;gap:10px;align-items:center;font-weight:600}.top small{display:block;color:#8fa1ab;font-weight:400;font-size:.76rem}.av{width:36px;height:36px;border-radius:50%;background:var(--red);display:grid;place-items:center;font:800 .8rem Sora,sans-serif}
+.stp{display:flex;gap:6px;padding:10px 12px;background:#111b21;flex-wrap:wrap}.stp span{font-size:.75rem;padding:4px 10px;border-radius:999px;border:1px solid #26353d;color:#8fa1ab;transition:.3s}.stp span.on{color:#fff;border-color:var(--red);background:rgba(229,37,42,.18)}
+#chat{height:340px;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:8px;scroll-behavior:smooth}
+.m{max-width:84%;padding:8px 12px;border-radius:12px;font-size:.92rem;color:#e9edef}
+.me{align-self:flex-end;background:var(--wa);border-top-right-radius:3px}.au{align-self:flex-start;background:#202c33;border-top-left-radius:3px}
+.sy{align-self:center;font-size:.78rem;color:#8fa1ab;background:#182229;border-radius:8px;padding:5px 12px}
+.sm{padding:12px;border-top:1px solid #1d2a31}.sm .ch button{font-size:.8rem;padding:6px 11px;border-color:#2a3a43}
+.tr{display:flex;flex-wrap:wrap;gap:34px;padding:26px 0}.tr b{display:block;font:800 2rem Sora,sans-serif}.tr span{color:var(--mut);font-size:.9rem}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.g{aspect-ratio:4/3;border-radius:14px;border:1px solid var(--ln);display:flex;align-items:flex-end;padding:12px;position:relative;overflow:hidden}
+.g::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 38%,rgba(255,255,255,.2) 50%,transparent 62%)}
+.g span{position:relative;background:rgba(0,0,0,.6);border-radius:6px;padding:4px 10px;font-size:.85rem}
+.g[hidden]{display:none}
+.ft{padding:44px 0 54px;border-top:1px solid var(--ln);color:var(--mut);font-size:.93rem}.ft .w{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap}.ft a{color:var(--tx)}.ft p{margin:4px 0}
+@media(max-width:900px){.hg,.cg,.dt{grid-template-columns:1fr}.sg{grid-template-columns:repeat(2,1fr)}.gal{grid-template-columns:1fr 1fr}nav{display:none}.hero{padding:44px 0}.sec{padding:54px 0}}
+@media(max-width:480px){.gal{grid-template-columns:1fr}}
+.hb{display:flex;gap:10px;align-items:center}#lang{padding:12px 16px;min-width:52px}@media(max-width:900px){header .btn{padding:11px 14px;font-size:.88rem}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="w"><div class="lg"><i></i>MVDS</div><nav><a href="#servicios">Servicios</a><a href="#cotizar">Sistema WhatsApp</a><a href="#galeria">Galería</a><a href="#contacto">Contacto</a></nav><div class="hb"><button class="btn alt" id="lang" aria-label="Idioma / Language">EN</button><a class="btn" href="#cotizar">Cotizar por WhatsApp</a></div></div></header>
+
+<section class="hero"><div class="w hg">
+<div><h1>Tu auto, <em>impecable</em> y protegido.</h1>
+<p class="sub">Detailing, PPF, polarizados, ploteos y AlloyGator en Montevideo. Para deportivos, exóticos, eléctricos y el auto con el que salís todos los días.</p>
+<div class="row"><a class="btn" href="#cotizar">Cotizar por WhatsApp</a><a class="btn alt" href="#servicios">Ver Servicios</a></div></div>
+<div class="frame"><div class="cars">
+<div class="car" style="background:linear-gradient(160deg,#ff3b30,#6b0b0b)"><span>Ferrari rojo</span></div>
+<div class="car" style="background:linear-gradient(160deg,#d6a35c,#4a3015)"><span>BMW bronce</span></div>
+<div class="car" style="background:linear-gradient(160deg,#fafafa,#8d8f97)"><span style="color:#fff">EV blanco</span></div></div>
+<div class="floor"></div><div class="cap">Espacio para las fotos y reels del estudio.</div></div>
+</div></section>
+
+<section class="sec" id="servicios"><div class="w">
+<h2>Cinco servicios, un solo estándar</h2><p class="lead">Elegí uno y mirá qué resuelve. Después lo mandás directo a tu cotización.</p>
+<div class="sg" id="sg"></div><div class="dt" id="dt"></div>
+</div></section>
+
+<section class="sec band" id="cotizar"><div class="w">
+<h2>Sistema WhatsApp</h2><p class="lead">Armá tu consulta y mirá cómo se la atiende al instante, también de noche y los fines de semana.</p>
+<div class="cg">
+<div class="card"><div class="lb" style="margin-top:0">Tu vehículo</div>
+<div class="i3"><input id="mk" placeholder="Marca" aria-label="Marca"><input id="md" placeholder="Modelo" aria-label="Modelo"><input id="yr" placeholder="Año" inputmode="numeric" maxlength="4" aria-label="Año"></div>
+<div class="lb">Servicio</div><div class="ch" id="qs"></div>
+<div class="lb">Objetivo</div><div class="ch" id="qg"></div>
+<div class="pv" id="pv"></div>
+<a class="btn" id="wa" target="_blank" rel="noopener">Enviar por WhatsApp</a></div>
+<div class="ph"><div class="top"><div class="av">MV</div><div>Montevideo Wrapping<small>Respuesta inmediata, 24/7</small></div></div>
+<div class="stp" id="stp"><span>Saludo</span><span>Datos</span><span>Próximos pasos</span><span>Equipo</span></div>
+<div id="chat" aria-live="polite"></div>
+<div class="sm"><div class="lb" style="margin:0 0 8px">Probá mensajes de ejemplo</div><div class="ch" id="sa"></div></div></div>
+</div></div></section>
+
+<section class="sec" id="galeria"><div class="w">
+<h2>Trabajo que se nota</h2>
+<div class="tr"><div><b>23K+</b><span>seguidores en Instagram</span></div><div><b>5</b><span>servicios bajo un mismo techo</span></div><div><b>AlloyGator</b><span>distribuidor en Uruguay</span></div></div>
+<div class="ch" id="gf"></div><div class="gal" id="gl"></div>
+</div></section>
+
+<footer class="ft" id="contacto"><div class="w">
+<div><div class="lg"><i></i>MVDS</div><p>Montevideo, Uruguay</p><p>WhatsApp: <a href="https://wa.me/59892488728" target="_blank" rel="noopener">092 488 728</a> (+598 92 488 728)</p><p>Instagram: <a href="https://instagram.com/montevideowrapping" target="_blank" rel="noopener">@montevideowrapping</a></p></div>
+<div><p><a href="#servicios">Servicios</a></p><p><a href="#cotizar">Sistema WhatsApp</a></p><p><a href="#galeria">Galería</a></p></div>
+<p style="max-width:34ch">Vista previa conceptual creada por aks.suite. Nuestro equipo adapta cada pieza a las fotos, los servicios y los procesos del estudio.</p>
+</div></footer>
+
+<script>
+const $=s=>document.querySelector(s),NUM='59892488728';
+let L='es',sv='ppf',gl=0,gf='all',run=0;
+const E={"Servicios":"Services","Sistema WhatsApp":"WhatsApp System","Galería":"Gallery","Contacto":"Contact","Cotizar por WhatsApp":"Get a quote on WhatsApp","Ver Servicios":"View services","Tu auto,":"Your car,","impecable":"flawless","y protegido.":"and protected.",
+"Detailing, PPF, polarizados, ploteos y AlloyGator en Montevideo. Para deportivos, exóticos, eléctricos y el auto con el que salís todos los días.":"Detailing, PPF, window tinting, wraps and AlloyGator in Montevideo. For sports cars, exotics, EVs and the car you drive every day.",
+"Ferrari rojo":"Red Ferrari","BMW bronce":"Bronze BMW","EV blanco":"White EV","Espacio para las fotos y reels del estudio.":"Space for the studio’s photos and reels.","Cinco servicios, un solo estándar":"Five services, one standard",
+"Elegí uno y mirá qué resuelve. Después lo mandás directo a tu cotización.":"Pick one and see what it solves. Then send it straight to your quote.",
+"Armá tu consulta y mirá cómo se la atiende al instante, también de noche y los fines de semana.":"Build your inquiry and see how it’s answered instantly, including nights and weekends.",
+"Tu vehículo":"Your vehicle","Servicio":"Service","Objetivo":"Goal","Enviar por WhatsApp":"Send on WhatsApp","Respuesta inmediata, 24/7":"Instant replies, 24/7","Saludo":"Greeting","Datos":"Details","Próximos pasos":"Next steps","Equipo":"Team","Probá mensajes de ejemplo":"Try sample messages","Trabajo que se nota":"Work you can see","seguidores en Instagram":"Instagram followers","servicios bajo un mismo techo":"services under one roof","distribuidor en Uruguay":"distributor in Uruguay",
+"Vista previa conceptual creada por aks.suite. Nuestro equipo adapta cada pieza a las fotos, los servicios y los procesos del estudio.":"Concept preview created by aks.suite. Our team adapts every piece to the studio’s photos, services and processes."};
+const SD={
+det:{es:{n:"Detailing",d:"Restauración profunda interior y exterior. Corrección de pintura, eliminación de hologramas y rayones finos, y acabado cerámico de estudio.",t:"1 a 3 días",i:"Estética y reventa",q:"fotos de la pintura y del interior"},en:{n:"Detailing",d:"Deep interior and exterior restoration. Paint correction, hologram and fine scratch removal, and a studio ceramic finish.",t:"1 to 3 days",i:"Looks and resale",q:"photos of the paint and the interior"}},
+ppf:{es:{n:"PPF",d:"Película transparente que absorbe piedritas y micro rayones. Para frontales, capot, espejos o el auto completo, en deportivos, exóticos, eléctricos y autos de uso diario.",t:"2 a 5 días",i:"Protección",q:"fotos del auto y si lo querés completo o solo frontal"},en:{n:"PPF",d:"Clear film that absorbs stone chips and micro scratches. For front ends, hoods, mirrors or the full car, on sports cars, exotics, EVs and daily drivers.",t:"2 to 5 days",i:"Protection",q:"photos of the car and whether you want full or front-only coverage"}},
+pol:{es:{n:"Polarizados",d:"Menos calor adentro, filtro de rayos UV y más privacidad. Cuida el interior y se siente en cada verano.",t:"Mismo día",i:"Confort y privacidad",q:"qué vidrios querés y qué nivel de oscuridad preferís"},en:{n:"Window tinting",d:"Less heat inside, UV filtering and more privacy. It protects the interior and you feel it every summer.",t:"Same day",i:"Comfort and privacy",q:"which windows you want and how dark you prefer them"}},
+plo:{es:{n:"Ploteos",d:"Cambio de color completo, techos, espejos y acentos en brillante, satinado o mate, con terminaciones prolijas.",t:"3 a 6 días",i:"Estética",q:"el color o acabado que imaginás"},en:{n:"Wraps",d:"Full color changes, roofs, mirrors and accents in gloss, satin or matte, with clean finishing.",t:"3 to 6 days",i:"Looks",q:"the color or finish you have in mind"}},
+ala:{es:{n:"AlloyGator Uruguay",d:"Sistema que protege el borde de las llantas de los roces contra el cordón, sin cambiar el diseño de la llanta.",t:"Mismo día",i:"Protección de llantas",q:"la medida de tus llantas y una foto del estado actual"},en:{n:"AlloyGator Uruguay",d:"A system that protects the edge of your wheels from curb scuffs without changing the wheel design.",t:"Same day",i:"Wheel protection",q:"your wheel size and a photo of their current condition"}}};
+const U={es:{ask:"Pedir {n} por WhatsApp",t:"Tiempo orientativo",i:"Ideal para",v:"Valor",c:"Se confirma al ver el vehículo",all:"Todos",g1:"PPF & Detailing",g2:"Ploteos",g3:"AlloyGator",ph:"espacio para tu foto",car:"auto",G:["Protección","Estética","Reventa"],
+m:(n,v,g)=>`Hola Montevideo Wrapping! Quiero cotizar ${n} para mi ${v}. Mi objetivo es ${g}. ¿Me pasan disponibilidad y los próximos pasos?`,
+r:(n,v,q,t)=>[`¡Hola! Gracias por escribir a Montevideo Wrapping. Recibimos tu consulta de ${n} para tu ${v}.`,`Para avanzar nos sirve saber ${q}. Podés mandarlo por acá.`,`El valor exacto se confirma al ver el vehículo. Tiempo orientativo: ${t}.`],
+hi:"¡Hola! Gracias por escribir a Montevideo Wrapping.",ho:"Te pasamos con el equipo para coordinar. Respondemos también fuera de horario.",sy:"Conversación derivada al equipo de MVDS",pl:["Marca","Modelo","Año"],
+SA:[["Quiero PPF para mi Tesla Model 3","Para PPF en un eléctrico podemos cubrir el frontal o el auto completo. Pasanos año y color, y unas fotos."],["¿Cuánto sale polarizar una camioneta?","El valor depende del vehículo y del nivel de oscuridad, por eso lo confirmamos al ver el auto. Pasanos marca, modelo y año."],["Quiero un ploteo mate","Hacemos mate, satinado y brillante. Contanos el color que imaginás y el modelo de tu auto."],["¿Qué es AlloyGator?","Es un sistema que protege el borde de las llantas de los roces. Pasanos la medida y una foto de tus llantas."]],
+GL:["Ferrari rojo, PPF","BMW bronce, detailing","EV blanco, PPF","Ploteo mate","Cambio de color","AlloyGator en llantas"]},
+en:{ask:"Request {n} on WhatsApp",t:"Estimated time",i:"Best for",v:"Price",c:"Confirmed once we see the vehicle",all:"All",g1:"PPF & Detailing",g2:"Wraps",g3:"AlloyGator",ph:"space for your photo",car:"car",G:["Protection","Looks","Resale"],
+m:(n,v,g)=>`Hi Montevideo Wrapping! I’d like a quote for ${n} for my ${v}. My goal is ${g}. Can you share availability and next steps?`,
+r:(n,v,q,t)=>[`Hi! Thanks for messaging Montevideo Wrapping. We received your ${n} inquiry for your ${v}.`,`To move forward it helps to know ${q}. You can send it right here.`,`The exact price is confirmed once we see the vehicle. Estimated time: ${t}.`],
+hi:"Hi! Thanks for messaging Montevideo Wrapping.",ho:"We’ll connect you with the team to coordinate. We also reply outside business hours.",sy:"Conversation handed off to the MVDS team",pl:["Make","Model","Year"],
+SA:[["I want PPF for my Tesla Model 3","For PPF on an EV we can cover the front end or the full car. Send us the year, color and a few photos."],["How much to tint a pickup?","The price depends on the vehicle and the tint level, so we confirm it once we see the car. Send us the make, model and year."],["I want a matte wrap","We do matte, satin and gloss. Tell us the color you have in mind and your car model."],["What is AlloyGator?","It’s a system that protects the edge of your wheels from scuffs. Send us the wheel size and a photo of your current wheels."]],
+GL:["Red Ferrari, PPF","Bronze BMW, detailing","White EV, PPF","Matte wrap","Color change","AlloyGator on wheels"]}};
+const GC=[["ppf","linear-gradient(150deg,#ff3b30,#4a0808)"],["ppf","linear-gradient(150deg,#d6a35c,#2e1c0a)"],["ppf","linear-gradient(150deg,#f2f2f5,#5c5e66)"],["plo","linear-gradient(150deg,#3b3d44,#111114)"],["plo","linear-gradient(150deg,#2b6df5,#0a1a4a)"],["ala","linear-gradient(150deg,#8c8c96,#1a1a1f)"]];
+const T=()=>U[L],S=k=>SD[k][L];
+const orig=new WeakMap(),SKIP='script,style,#chat,#pv,#sg,#dt,#qs,#qg,#gf,#gl,#sa';
+function walk(){const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let n;while(n=w.nextNode()){if(n.parentElement.closest(SKIP))continue;if(!orig.has(n))orig.set(n,n.nodeValue);const o=orig.get(n),k=o.trim();if(k)n.nodeValue=L=='en'&&E[k]?o.replace(k,E[k]):o}}
+function chips(el,items,cur,fn){el.innerHTML=items.map(([k,l])=>`<button class="${k==cur?'on':''}" data-k="${k}">${l}</button>`).join('');el.onclick=e=>{const b=e.target.closest('button');if(b)fn(b.dataset.k)}}
+const veh=()=>[$('#mk').value,$('#md').value,$('#yr').value].map(x=>x.trim()).filter(Boolean).join(' ')||T().car;
+const msg=()=>T().m(S(sv).n,veh(),T().G[gl].toLowerCase());
+function cards(){
+ const sg=$('#sg');sg.innerHTML=Object.keys(SD).map(k=>`<button class="sc ${k==sv?'on':''}" data-k="${k}">${S(k).n}</button>`).join('');
+ sg.onclick=e=>{const b=e.target.closest('button');if(b){sv=b.dataset.k;sync(false)}};
+ const s=S(sv),t=T();$('#dt').innerHTML=`<div><h3>${s.n}</h3><p>${s.d}</p><button class="btn" id="go">${t.ask.replace('{n}',s.n)}</button></div><dl><div><dt>${t.t}</dt><dd>${s.t}</dd></div><div><dt>${t.i}</dt><dd>${s.i}</dd></div><div><dt>${t.v}</dt><dd>${t.c}</dd></div></dl>`;
+ $('#go').onclick=()=>{sync(true);$('#cotizar').scrollIntoView()};
+}
+function sync(play){
+ cards();
+ chips($('#qs'),Object.keys(SD).map(k=>[k,S(k).n]),sv,k=>{sv=k;sync(true)});
+ chips($('#qg'),T().G.map((g,i)=>[i,g]),gl,k=>{gl=+k;sync(true)});
+ $('#pv').textContent=msg();$('#wa').href=`https://wa.me/${NUM}?text=${encodeURIComponent(msg())}`;
+ if(play){const s=S(sv);flow(msg(),T().r(s.n,veh(),s.q,s.t.toLowerCase()))}
+}
+function flow(client,rs){
+ const id=++run,c=$('#chat'),st=[...document.querySelectorAll('#stp span')];c.innerHTML='';st.forEach(s=>s.classList.remove('on'));
+ const add=(t,cl)=>{const d=document.createElement('div');d.className='m '+cl;d.textContent=t;c.append(d);c.scrollTop=1e5};
+ add(client,'me');
+ [...rs,null].forEach((r,i)=>setTimeout(()=>{if(id!=run)return;st[i].classList.add('on');if(r)add(r,'au');else add(T().sy,'sy')},700*(i+1)));
+}
+function sample(i){const t=T(),[q,a]=t.SA[i];flow(q,[t.hi,a,t.ho])}
+function samples(){$('#sa').innerHTML=T().SA.map((x,i)=>`<button data-i="${i}">${x[0]}</button>`).join('');$('#sa').onclick=e=>{const b=e.target.closest('button');if(b)sample(+b.dataset.i)}}
+function gal(f){
+ gf=f;const t=T();
+ chips($('#gf'),[['all',t.all],['ppf',t.g1],['plo',t.g2],['ala',t.g3]],f,gal);
+ $('#gl').innerHTML=GC.map(([c,bg],i)=>`<div class="g" style="background:${bg}"${f=='all'||f==c?'':' hidden'}><span>${t.GL[i]}, ${t.ph}</span></div>`).join('');
+}
+function apply(){
+ document.documentElement.lang=L;$('#lang').textContent=L=='es'?'EN':'ES';
+ ['#mk','#md','#yr'].forEach((s,i)=>{$(s).placeholder=$(s).ariaLabel=T().pl[i]});
+ walk();samples();gal(gf);sync(true);
+}
+['#mk','#md','#yr'].forEach(s=>{$(s).oninput=()=>sync(false);$(s).onchange=()=>sync(true)});
+$('#lang').onclick=()=>{L=L=='es'?'en':'es';apply()};
+apply();
+</script>
+</body>
+</html>
